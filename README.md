@@ -5,7 +5,7 @@ this demo shows some issues I found using the fancy multi-browser feature:
 - [ ] first resolution in browser/resolution combination will overwrite all other resolutions for that browser. E.g. using a array of [chrome / maximum] and [chrome / 1024] will end up in 2 tests with chrome/maximum (and 'maximum' will be used in both folder-names).
 
 
-##My Setup
+## My Setup
 * selenium server standalone 3.3.1
 
 * codeceptjs@0.6.3-pre (global install)
